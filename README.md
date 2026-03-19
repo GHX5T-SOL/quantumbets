@@ -15,7 +15,7 @@
 
 **Event contracts with terminal UX, hybrid oracle, and optional external venue feeds.**
 
-[Linear project](https://linear.app/quantumbets/project/quantumbets-prototype-01e0496ea4f9/overview) · [Polymarket API](https://docs.polymarket.com/developers/gamma-markets-api/overview) · [Kalshi API](https://docs.kalshi.com) · [IncryptOracle (reference)](https://github.com/GHX5T-SOL/IncryptOracle)
+[Linear — start QUANT-28](https://linear.app/quantumbets/issue/QUANT-28) · [Unified plan (doc)](https://linear.app/quantumbets/document/unified-master-plan-v1-canonical-4bf383ae1b08) · [`docs/plans/UNIFIED_MASTER_PLAN.md`](docs/plans/UNIFIED_MASTER_PLAN.md) · [Polymarket API](https://docs.polymarket.com/developers/gamma-markets-api/overview) · [Kalshi API](https://docs.kalshi.com) · [IncryptOracle (reference)](https://github.com/GHX5T-SOL/IncryptOracle)
 
 </div>
 
@@ -31,13 +31,11 @@
 | **Liquidity bridge** | Read-only **Polymarket** / **Kalshi** aggregation first; cross-venue trading only with counsel + ToS |
 | **Crypto rails** | **Base** L2, USDC-style collateral for MVP; custom bridge **after** legal clarity + audits |
 
-### Grok roadmap overlay (Mar 2026)
+### Linear (single track)
 
-An external **Grok** blueprint (Solana + Anchor + $QBT + Wormhole + Supabase + fuller terminal IA) is **merged for planning**, not blindly adopted as code:
-
-- **Docs:** [`docs/plans/grok-plan-integration.md`](docs/plans/grok-plan-integration.md) — what we took vs what conflicts  
-- **ADR:** [`docs/adr/0003-evaluation-solana-vs-base-grok.md`](docs/adr/0003-evaluation-solana-vs-base-grok.md) — **Base (ADR-0001)** remains default until **QUANT-27** spike completes  
-- **Linear:** filter **`roadmap:grok`** · milestones **Grok P0–P4** · start **[QUANT-17](https://linear.app/quantumbets/issue/QUANT-17/meta-read-grok-merged-plan-repo-docs-adr-0003)** · doc [Grok blueprint](https://linear.app/quantumbets/document/grok-full-startup-blueprint-source-synthesis-e842ae741635)
+- **Start:** **[QUANT-28](https://linear.app/quantumbets/issue/QUANT-28)** — mission, map, sub-issues **S01–S09** (**QUANT-29–37**). Filter **`owner:zoro`** or **`owner:ghost`**. Milestones **U1 → U2 → U3** (ignore legacy **M0–M7** / **Grok P0–P4** for new work).
+- **Canonical doc:** [Unified Master Plan v1](https://linear.app/quantumbets/document/unified-master-plan-v1-canonical-4bf383ae1b08) · repo copy [`docs/plans/UNIFIED_MASTER_PLAN.md`](docs/plans/UNIFIED_MASTER_PLAN.md).
+- **Grok detail:** [`docs/plans/grok-plan-integration.md`](docs/plans/grok-plan-integration.md) · **ADR:** [`docs/adr/0003-evaluation-solana-vs-base-grok.md`](docs/adr/0003-evaluation-solana-vs-base-grok.md) — **Base (ADR-0001)** default until ADR-0003 spike (**S03 / QUANT-31**) closes.
 
 > **Legal:** Not legal advice. SA gambling is provincial under the [National Gambling Act, 2004](https://www.gov.za/); see [Remote Gambling Bill B11-2024](https://www.gov.za/documents/bills/remote-gambling-bill-b11-2024-16-apr-2024) and [Chambers SA Gaming 2025](https://practiceguides.chambers.com/practice-guides/gaming-law-2025/south-africa). Engage counsel before public money flows.
 
@@ -116,7 +114,7 @@ flowchart LR
 | **Terminal** | `/terminal` — watchlist + tiles |
 | **Instrument** | `/market/[id]` — chart, ticket stub |
 | **Ops** | `/admin/oracle` — attestations stub |
-| **Planned** | `/portfolio`, `/wallet`, `/legal/*`, `/admin/markets` — see Linear epics |
+| **Planned** | `/portfolio`, `/wallet`, `/legal/*`, `/admin/markets` — see Linear **QUANT-28** / S01–S09 |
 
 ---
 

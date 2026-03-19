@@ -1,5 +1,7 @@
 # Grok Plan Integration — Merged Operating Blueprint
 
+> **Active planning:** Use **[UNIFIED_MASTER_PLAN.md](./UNIFIED_MASTER_PLAN.md)** and Linear **[QUANT-28](https://linear.app/quantumbets/issue/QUANT-28)** → streams **S01–S09 (QUANT-29–37)**. This file keeps **Grok-sourced detail** and ADR context; day-to-day work follows the unified plan.
+
 This document **merges** the external Grok blueprint (Mar 2026) with the repo’s existing architecture ([ADR-0001: Base + no-token MVP](../adr/0001-default-l2-and-custody-model.md)). **Nothing here replaces legal counsel.**
 
 ---
@@ -40,21 +42,25 @@ This document **merges** the external Grok blueprint (Mar 2026) with the repo’
 
 ---
 
-## Grok roadmap (6 months to MVP) — mapped to Linear
+## Grok roadmap (historical) — vs unified milestones
 
-| Grok phase | Time | Milestone name in Linear |
-|------------|------|---------------------------|
-| P0 Foundation | Week 1 | Grok P0 — Foundation |
-| P1 Contracts + Oracle | Weeks 2–4 | Grok P1 — Core contracts & oracle |
-| P2 Frontend + integrations | Weeks 5–8 | Grok P2 — Terminal & mirrors |
-| P3 Test + audit + SA | Weeks 9–12 | Grok P3 — Testnet & SA markets |
-| P4 Mainnet + token + GTM | Months 4–6 | Grok P4 — Mainnet & growth |
+**Use for new work:** Linear milestones **U1 → U2 → U3** (setup → core → hardening). Grok **P0–P4** and legacy **M0–M7** remain in the project for reference only.
+
+| Grok phase | Time | Unified milestone |
+|------------|------|-------------------|
+| P0 Foundation | Week 1 | **U1** |
+| P1 Contracts + Oracle | Weeks 2–4 | **U2** |
+| P2 Frontend + integrations | Weeks 5–8 | **U2** |
+| P3 Test + audit + SA | Weeks 9–12 | **U2 / U3** |
+| P4 Mainnet + token + GTM | Months 4–6 | **U3** (token only if legal + ADR allow) |
 
 ---
 
-## Grok Linear epics (issues in project)
+## Linear (current)
 
-See Linear issues **Grok EPIC-01 … EPIC-08** plus **META: Grok plan** and **Ritual: Weekly sync & reflection**.
+Canonical issues: **[QUANT-28](https://linear.app/quantumbets/issue/QUANT-28)** and sub-issues **QUANT-29–37** (S01–S09). Older **QUANT-5–27** are marked **Duplicate** in Linear.
+
+Document: [Unified Master Plan v1 (Linear)](https://linear.app/quantumbets/document/unified-master-plan-v1-canonical-4bf383ae1b08).
 
 ---
 

@@ -1,0 +1,11 @@
+# Default owners for everything in the repo
+* @ghost @zoro
+
+# Smart contracts - Ghost owns
+/contracts/ @ghost
+
+# Oracle workers - Ghost owns
+/services/oracle/ @ghost
+
+# Design system - Zoro owns
+/packages/ui/ @zoro

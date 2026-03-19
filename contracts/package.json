@@ -1,0 +1,17 @@
+{
+  "name": "@quantumbets/contracts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "hardhat compile",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0",
+    "@openzeppelin/contracts": "^5.0",
+    "hardhat": "^2.22",
+    "solidity": "^0.8.24"
+  }
+}

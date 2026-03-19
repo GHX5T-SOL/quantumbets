@@ -1,0 +1,20 @@
+# Cursor IDE (local)
+.cursor/
+
+node_modules
+.next
+dist
+.turbo
+*.log
+.env
+.env.local
+.env.*.local
+.DS_Store
+coverage
+.idea
+*.tsbuildinfo
+
+# Hardhat
+contracts/cache
+contracts/artifacts
+contracts/typechain-types

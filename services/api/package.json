@@ -1,0 +1,28 @@
+{
+  "name": "@quantumbets/api",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "prisma generate",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "express": "^4.21",
+    "cors": "^2.8.5",
+    "@prisma/client": "^5.22",
+    "uuid": "^10.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.22",
+    "@types/cors": "^2.8",
+    "@types/express": "^4.17",
+    "@types/node": "^20",
+    "tsx": "^4.19",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm install",
+  "buildCommand": "npx turbo run build --filter=@quantumbets/web",
+  "outputDirectory": "apps/web/.next",
+  "regions": ["iad1"]
+}

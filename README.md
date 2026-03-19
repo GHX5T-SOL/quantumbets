@@ -31,6 +31,14 @@
 | **Liquidity bridge** | Read-only **Polymarket** / **Kalshi** aggregation first; cross-venue trading only with counsel + ToS |
 | **Crypto rails** | **Base** L2, USDC-style collateral for MVP; custom bridge **after** legal clarity + audits |
 
+### Grok roadmap overlay (Mar 2026)
+
+An external **Grok** blueprint (Solana + Anchor + $QBT + Wormhole + Supabase + fuller terminal IA) is **merged for planning**, not blindly adopted as code:
+
+- **Docs:** [`docs/plans/grok-plan-integration.md`](docs/plans/grok-plan-integration.md) — what we took vs what conflicts  
+- **ADR:** [`docs/adr/0003-evaluation-solana-vs-base-grok.md`](docs/adr/0003-evaluation-solana-vs-base-grok.md) — **Base (ADR-0001)** remains default until **QUANT-27** spike completes  
+- **Linear:** filter **`roadmap:grok`** · milestones **Grok P0–P4** · start **[QUANT-17](https://linear.app/quantumbets/issue/QUANT-17/meta-read-grok-merged-plan-repo-docs-adr-0003)** · doc [Grok blueprint](https://linear.app/quantumbets/document/grok-full-startup-blueprint-source-synthesis-e842ae741635)
+
 > **Legal:** Not legal advice. SA gambling is provincial under the [National Gambling Act, 2004](https://www.gov.za/); see [Remote Gambling Bill B11-2024](https://www.gov.za/documents/bills/remote-gambling-bill-b11-2024-16-apr-2024) and [Chambers SA Gaming 2025](https://practiceguides.chambers.com/practice-guides/gaming-law-2025/south-africa). Engage counsel before public money flows.
 
 ---
@@ -242,6 +250,8 @@ A **Master Plan** document is also attached to the Linear project (vision, roadm
 | [`docs/security/security-checklist.md`](docs/security/security-checklist.md) | Secrets, auth, audit logging |
 | [`docs/security/audit-scope.md`](docs/security/audit-scope.md) | Pre-mainnet audit scope |
 | [`docs/qa/`](docs/qa/) | Milestone QA checklists |
+| [`docs/plans/grok-plan-integration.md`](docs/plans/grok-plan-integration.md) | Grok plan merged with repo + Linear |
+| [`docs/adr/0003-evaluation-solana-vs-base-grok.md`](docs/adr/0003-evaluation-solana-vs-base-grok.md) | Solana vs Base evaluation |
 
 ---
 
